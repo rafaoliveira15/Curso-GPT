@@ -1,0 +1,156 @@
+# 💻 Sistema de Cadastro de Clientes — Java Desktop
+
+Projeto educacional desenvolvido em Java com foco em **interfaces gráficas (Swing), validação de dados, persistência e POO**.
+
+Este repositório reúne múltiplas atividades práticas, cada uma baseada em um **prompt orientado**, simulando desafios reais de desenvolvimento.
+
+---
+
+## 🚀 Visão Geral
+
+O projeto contém **5 aplicações independentes**, abordando:
+
+- Java Swing (interfaces gráficas)
+- JDBC com MySQL
+- Validação de CPF (algoritmo completo)
+- Manipulação de arquivos (TXT)
+- Estruturas de dados (ArrayList)
+- Programação orientada a objetos (POO)
+
+---
+
+## 📚 Índice
+
+[![Sobre](https://img.shields.io/badge/Sobre%20o%20Projeto-2E7D32?style=for-the-badge)](#sobre-o-projeto)
+[![Tecnologias](https://img.shields.io/badge/Tecnologias-2E7D32?style=for-the-badge)](#tecnologias)
+[![Atividades](https://img.shields.io/badge/Atividades-2E7D32?style=for-the-badge)](#atividades)
+[![Prompts](https://img.shields.io/badge/Prompts-2E7D32?style=for-the-badge)](#prompts-das-atividades)
+[![Funcionalidades](https://img.shields.io/badge/Funcionalidades-2E7D32?style=for-the-badge)](#funcionalidades)
+[![Instalação](https://img.shields.io/badge/Instalação-2E7D32?style=for-the-badge)](#instalação)
+
+---
+
+## 📌 Sobre o Projeto
+
+Este projeto foi criado para consolidar conhecimentos em:
+
+- Interfaces desktop com Java
+- Validação de dados sensíveis
+- Integração com banco de dados
+- Manipulação de arquivos
+- Organização em camadas (modelo e visão)
+
+---
+
+## 🛠️ Tecnologias
+
+- Java  
+- Java Swing  
+- JDBC (MySQL)  
+- MySQL  
+- FlatLaf  
+- File I/O  
+- Regex  
+- POO  
+
+---
+
+## 📂 Atividades
+
+### 🧾 1. Registro de Clientes com Banco de Dados  
+📄 `Atv1.java`  
+🎯 Swing + JDBC + Validação de CPF  
+
+---
+
+### 💻 2. Cadastro via Console  
+📄 `FormularioCliente.java`  
+🎯 Scanner + POO  
+
+---
+
+### 📊 3. Cadastro com JTable  
+📄 `CadastroClientes.java`  
+🎯 JTable + FlatLaf  
+
+---
+
+### 📁 4. Controle de Movimentação TXT  
+📄 `FormularioAppChallenge.java`  
+🎯 File I/O  
+
+---
+
+### 🧩 5. Formulário com Máscaras  
+📄 `CadastroCliente.java`  
+🎯 UX + Validação CPF  
+
+---
+
+## 🧠 Prompts das Atividades
+
+### 🧾 Atividade 1 — Banco de Dados (Atv1.java)
+
+> "Crie uma aplicação Java Swing para cadastro de clientes utilizando GridBagLayout. O formulário deve conter campos para Nome, E-mail, Telefone (com máscara) e CPF (com máscara). Implemente uma função robusta para validar o algoritmo do CPF (dígitos verificadores). Ao clicar em 'Salvar', o sistema deve validar o CPF, limpar caracteres não numéricos e persistir os dados em um banco de dados MySQL chamado sistema_clientes na tabela clientes (colunas: nome, email, telefone, cpf). Inclua um botão 'Limpar' para resetar o formulário e use JOptionPane para feedbacks."
+
+---
+
+### 💻 Atividade 2 — Console (FormularioCliente.java)
+
+> "Desenvolva uma aplicação Java simples de console para cadastro de clientes. O programa deve pertencer ao pacote visao e interagir com uma classe Cliente no pacote modelo. Use a classe Scanner para ler o Nome e o E-mail do usuário. Implemente uma regra de validação que verifique se o e-mail contém o caractere '@'. Se for válido, instancie o objeto e exiba uma mensagem confirmando o salvamento (simulado via console); caso contrário, exiba uma mensagem de erro."
+
+---
+
+### 📊 Atividade 3 — JTable + FlatLaf (CadastroClientes.java)
+
+> "Crie um programa em Java Swing para gerenciar um cadastro de clientes, utilizando a biblioteca FlatLaf (FlatLightLaf) para um visual moderno. A interface deve ser dividida em duas partes: um formulário no topo (GridLayout) e uma tabela (JTable) na parte inferior para listagem. Armazene os dados em um ArrayList de objetos Cliente. Campos necessários: Nome, Nascimento, CPF, Email e Celular (todos os campos de data e números devem ter máscaras). O sistema deve validar se o CPF é real e se nenhum campo está vazio antes de adicionar o cliente à lista e atualizar a tabela."
+
+---
+
+### 📁 Atividade 4 — Arquivo TXT (FormularioAppChallenge.java)
+
+> "Desenvolva um 'Sistema de Controle de Movimentação - Versão Beta' em Java Swing. Utilize um GridLayout para organizar campos de: Data (com máscara), Operador (ComboBox), Fornecedor (ComboBox), Produto (ComboBox), Quantidade (JTextField) e Tipo de Movimentação (ComboBox: Entrada/Saída). Implemente a persistência em um arquivo chamado dados_movimentacao.txt. Importante: o arquivo não deve ser sobrescrito a cada salvamento (use o modo append). Adicione um botão 'Ver Registros' que leia o conteúdo do arquivo e o exiba em um JTextArea dentro de um JScrollPane em uma janela de diálogo."
+
+---
+
+### 🧩 Atividade 5 — Máscaras e Validação (CadastroCliente.java)
+
+> "Construa um formulário de 'Cadastro de Cliente' em Java Swing usando GridBagLayout. O foco principal deve ser a experiência do usuário com campos formatados. Utilize MaskFormatter para os campos de Telefone (##) #####-#### e CPF ###.###.###-##. Implemente a lógica completa de validação de CPF (cálculo de 1º e 2º dígito). Ao clicar em salvar, se o CPF for válido, exiba todos os dados digitados em um JOptionPane. O botão 'Limpar' deve limpar todos os campos e resetar os valores dos campos formatados."
+
+---
+
+## ⚙️ Funcionalidades
+
+- ✔️ Validação de CPF  
+- ✔️ Interfaces gráficas com Swing  
+- ✔️ Persistência em MySQL e TXT  
+- ✔️ Listagem dinâmica com JTable  
+- ✔️ Validação de formulários  
+- ✔️ Feedback visual ao usuário  
+
+---
+
+## ▶️ Instalação
+
+### 🔧 Pré-requisitos
+
+- Java JDK 11+
+- MySQL
+- IDE (IntelliJ, Eclipse ou VS Code)
+
+---
+
+### 🗄️ Banco de Dados
+
+```sql
+CREATE DATABASE sistema_clientes;
+
+USE sistema_clientes;
+
+CREATE TABLE clientes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100),
+    email VARCHAR(100),
+    telefone VARCHAR(20),
+    cpf VARCHAR(14)
+);
