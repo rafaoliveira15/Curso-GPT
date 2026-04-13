@@ -1,0 +1,2 @@
+Data: 15/10/2008 | Operador: Maria | Fornecedor: ABC | Produto: Prod B | Qtd: 5 | Tipo: Entrada
+Data: 15/10/2025 | Operador: José | Fornecedor: ABC | Produto: Prod A | Qtd: 5 | Tipo: Entrada
