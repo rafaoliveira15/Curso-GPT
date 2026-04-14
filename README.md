@@ -2,7 +2,9 @@
 
 # Curso Chat GPT
 
-Projeto educacional desenvolvido em Java abordando as atividades práticas do Curso de Chat GPT do SENAI. Cada atividade simula um desafio real de desenvolvimento, com foco em interfaces gráficas (Swing), validação de dados, persistência e POO.
+> **Projeto educacional desenvolvido em Java abordando as atividades práticas do Curso de Chat GPT do SENAI.**  
+> Cada atividade simula um desafio real de desenvolvimento, com foco em interfaces gráficas (Swing), validação de dados, persistência e POO.
+
 
 ---
 
