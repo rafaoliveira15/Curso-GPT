@@ -112,12 +112,6 @@ Foco: UX + Validação CPF
 
 ---
 
-### Atividade 5 — Máscaras e Validação (CadastroCliente.java)
-
-> "Construa um formulário de 'Cadastro de Cliente' em Java Swing usando GridBagLayout. O foco principal deve ser a experiência do usuário com campos formatados. Utilize MaskFormatter para os campos de Telefone (##) #####-#### e CPF ###.###.###-##. Implemente a lógica completa de validação de CPF (cálculo de 1º e 2º dígito). Ao clicar em salvar, se o CPF for válido, exiba todos os dados digitados em um JOptionPane. O botão 'Limpar' deve limpar todos os campos e resetar os valores dos campos formatados."
-
----
-
 ## Funcionalidades
 
 - Validação de CPF  
