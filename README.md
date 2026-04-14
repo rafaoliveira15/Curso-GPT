@@ -1,21 +1,20 @@
-# Sistema de Cadastro de Clientes — Java Desktop
+<div align="center">
 
-Projeto educacional desenvolvido em Java com foco em **interfaces gráficas (Swing), validação de dados, persistência e POO**.
+# Curso Chat GPT
 
-Este repositório reúne múltiplas atividades práticas, cada uma baseada em um **prompt orientado**, simulando desafios reais de desenvolvimento.
+### Atividade 01 — Sistema de Cadastro de Clientes
+
+Projeto educacional desenvolvido em Java abordando as atividades práticas do **Curso de Chat GPT do SENAI**. Cada atividade simula um desafio real de desenvolvimento, com foco em **interfaces gráficas (Swing), validação de dados, persistência e POO**.
 
 ---
 
-## Visão Geral
+[![Java](https://img.shields.io/badge/Java-11+-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com/)
+[![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
+[![Swing](https://img.shields.io/badge/Java%20Swing-GUI-007396?style=for-the-badge&logo=java&logoColor=white)](https://docs.oracle.com/javase/tutorial/uiswing/)
+[![FlatLaf](https://img.shields.io/badge/FlatLaf-Modern%20UI-6C3483?style=for-the-badge)](https://www.formdev.com/flatlaf/)
+[![Status](https://img.shields.io/badge/Status-Ativo-2ECC71?style=for-the-badge)]()
 
-O projeto contém **5 aplicações independentes**, abordando:
-
-- Java Swing (interfaces gráficas)
-- JDBC com MySQL
-- Validação de CPF (algoritmo completo)
-- Manipulação de arquivos (TXT)
-- Estruturas de dados (ArrayList)
-- Programação orientada a objetos (POO)
+</div>
 
 ---
 
@@ -154,3 +153,12 @@ CREATE TABLE clientes (
     telefone VARCHAR(20),
     cpf VARCHAR(14)
 );
+```
+
+---
+
+<div align="center">
+
+*Curso Chat GPT · SENAI · Atividade 01 · Sistema de Cadastro de Clientes*
+
+</div>
